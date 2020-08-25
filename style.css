@@ -1,0 +1,48 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(245, 180, 196);
+}
+
+.video {
+    width: 90%;
+    align-content: center;
+    margin: 4% auto;
+}
+
+.text {
+    text-align: center;
+    margin: 20% auto;
+    color: rgb(180, 230, 245);
+}
+
+.bonus {
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(237, 180, 245);
+    margin: 7% auto;
+}
+
+
+@media screen and (max-width: 992px) {
+  
+    .title {
+        font-size: 10vw;
+    }
+    
+    .text {
+        font-size: 4vw;
+        margin: 1% auto 20% auto;
+    }
+    .bonus {
+        font-size: 10vw;
+    }
+    
+
+
+    }
